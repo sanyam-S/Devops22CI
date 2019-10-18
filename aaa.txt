@@ -1,0 +1,14 @@
+---
+- hosts: host1 (should exactly match with /etc/ansible/hosts file)  
+
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+---> each play is like a dictionary and has hosts,names,tasks.Order doesn't matter 
+-------------------------------------------------------------------------------------------
+
+---> when we are writing a playbook, this will a list of dictionaries,
+-------------------------------------------------------------------------------------------
+
+---> tasks are nothing but command (think we have to do on remote server)
+----------------
